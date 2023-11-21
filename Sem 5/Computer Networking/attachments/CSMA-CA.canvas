@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"6ae1d4103e14ecc6","type":"group","x":-360,"y":-50,"width":640,"height":90,"color":"5","label":"Frame 1"},
+		{"id":"ae25d929bf0abb58","type":"group","x":600,"y":-50,"width":640,"height":90,"color":"1","label":"Frame 2"},
+		{"id":"bd80641df53682b8","type":"text","text":"**RTS**","x":-340,"y":-30,"width":99,"height":50},
+		{"id":"479b7264008fc7e4","type":"text","text":"**CTS**","x":-170,"y":-30,"width":94,"height":50},
+		{"id":"af569a491bd113d7","type":"text","text":"**Data**","x":0,"y":-30,"width":100,"height":50},
+		{"id":"ce64605596020335","type":"text","text":"**ACK**","x":180,"y":-30,"width":90,"height":50},
+		{"id":"cce577a08855597b","type":"text","text":"**RTS**","x":620,"y":-30,"width":99,"height":50},
+		{"id":"6136eff2a3811665","type":"text","text":"**CTS**","x":790,"y":-30,"width":94,"height":50},
+		{"id":"08a24bf0d0ab0c01","type":"text","text":"**Data**","x":960,"y":-30,"width":100,"height":50},
+		{"id":"827c66c70807eb08","type":"text","text":"**ACK**","x":1140,"y":-30,"width":90,"height":50}
+	],
+	"edges":[
+		{"id":"041e55f07b4918d7","fromNode":"bd80641df53682b8","fromSide":"right","toNode":"479b7264008fc7e4","toSide":"left","fromEnd":"arrow","label":"SIFT"},
+		{"id":"c5ffc895ec8b49ef","fromNode":"479b7264008fc7e4","fromSide":"right","toNode":"af569a491bd113d7","toSide":"left","fromEnd":"arrow","label":"SIFT"},
+		{"id":"d33841f84de37a53","fromNode":"af569a491bd113d7","fromSide":"right","toNode":"ce64605596020335","toSide":"left","fromEnd":"arrow","label":"SIFT"},
+		{"id":"d1ae4be4bf2b5ac8","fromNode":"cce577a08855597b","fromSide":"right","toNode":"6136eff2a3811665","toSide":"left","fromEnd":"arrow","label":"SIFT"},
+		{"id":"80f0bbf117734bf6","fromNode":"6136eff2a3811665","fromSide":"right","toNode":"08a24bf0d0ab0c01","toSide":"left","fromEnd":"arrow","label":"SIFT"},
+		{"id":"03fa1d627a5d5bdb","fromNode":"08a24bf0d0ab0c01","fromSide":"right","toNode":"827c66c70807eb08","toSide":"left","fromEnd":"arrow","label":"SIFT"},
+		{"id":"f9058817518557b2","fromNode":"6ae1d4103e14ecc6","fromSide":"right","toNode":"ae25d929bf0abb58","toSide":"left","label":"DIFT + CW"}
+	]
+}
