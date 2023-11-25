@@ -3,8 +3,7 @@ Author: Vighnesh Nayak
 Date: 02/11/2023
 Modified: 02/11/2023
 Topic: Graphs
-tags:
-  - dsa
+tags: [ dsa ]
 ---
 # Dijkstra Algorithm.
 ---

@@ -2,8 +2,7 @@
 Author: Vighnesh Nayak
 Date: 31/10/2023
 Course: Computer Networking
-tags:
-  - networking
+tags: [networking]
 ---
 # Medium Access Control (MAC)
 ---
@@ -18,7 +17,7 @@ LAN's [^1] with bus topology does not scale well with number of nodes due to inc
 
 ---
 ### CSMA-CA (Carrier Sensing Multiple Access with Collision Avoidance)
-![Pasted image 20231031182445](./attachments/Pasted%20image%2020231031182445.png)
+![Pasted image 20231031182445](/static/Pasted%20image%2020231031182445.png)
 - Used in Wi-Fi.
 - We use Collision Avoidance since collision detection is not possible.
 - **Acknowledgement (ACK)** packets are used to detect collision.

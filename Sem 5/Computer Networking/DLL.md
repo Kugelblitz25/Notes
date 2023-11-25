@@ -2,8 +2,7 @@
 Author: Vighnesh Nayak
 Date: 01/11/2023
 Course: Computer Networking
-tags:
-  - networking
+tags: [networking]
 ---
 # DLL
 ---

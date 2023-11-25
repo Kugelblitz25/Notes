@@ -2,8 +2,7 @@
 Author: Vighnesh Nayak
 Date: 26/10/2023
 Course: Microprocessors and Automatic Controls
-tags:
- - controls
+tags: [controls]
 ---
 # Fourier Series and Transforms
 ---
@@ -38,7 +37,9 @@ $$f_T(t)=\sum_{n=-\infty}^{\infty}\frac{1}{2\pi}\left(\int_{-\infty}^{\infty}f(t
 Since $\Delta\omega\to0$ changing summation to integral.
 $$f_T(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty}\mathcal{F}(\omega)e^{i\omega t}d\omega,$$
 $$\mathcal{F}(\omega)=\int_{-\infty}^{\infty}f(t)e^{-i\omega t} $$
+
 $\mathcal{F}(\omega)$ is called the Fourier transform of $f(t)$.
+
 $f(t)$ is called the Inverse Fourier transform of $\mathcal{F}(\omega)$.
 
 ---

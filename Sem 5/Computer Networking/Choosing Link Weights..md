@@ -2,8 +2,7 @@
 Author: Vighnesh Nayak
 Date: 02/11/2023
 Course: Computer Networking
-tags:
-  - networking
+tags: [networking]
 ---
 # Choosing Link Weights.
 ---
@@ -18,7 +17,7 @@ tags:
 	- Satellite links are penalized too much due to large distance.
 ---
 ## By Utilization.
-![Pasted image 20231102195317](./attachments/Pasted%20image%2020231102195317.png)
+![Pasted image 20231102195317](/static/Pasted%20image%2020231102195317.png)
 
 - Terrestrial links are preferred to satellite links with same speed.
 ---

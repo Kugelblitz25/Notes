@@ -3,8 +3,7 @@ Author: Vighnesh Nayak
 Date: 28/10/2023
 Modified: 28/10/2023
 Course: Reading Literature
-tags:
-  - literature
+tags: [ literature ]
 ---
 # Central Ideas.
 ---

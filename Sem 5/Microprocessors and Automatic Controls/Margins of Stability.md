@@ -2,8 +2,7 @@
 Author: Vighnesh Nayak
 Date: 14/11/2023
 Course: Microprocessors and Automatic Controls
-tags:
-  - controls
+tags: [controls]
 ---
 # Margins of Stability
 ---

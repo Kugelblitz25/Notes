@@ -2,8 +2,7 @@
 Author: Vighnesh Nayak
 Date: 02/11/2023
 Course: Computer Networking
-tags:
-  - networking
+tags: [networking]
 ---
 # IP address
 ---
@@ -18,7 +17,7 @@ tags:
 	- 10.\*.\*.\* and 192.\*.\*.\* $\rightarrow$ private IP's.
 		- These can be reused in a different private network.
 - All public IP's must be unique.
-- **Header**: ![Pasted image 20231102214659](./attachments/Pasted%20image%2020231102214659.png)
+- **Header**: ![Pasted image 20231102214659](/static/Pasted%20image%2020231102214659.png)
 	- *Size* : 20 bytes.
 	- *Protocol* : Type of protocol used by next layer.
 		- 6 : TCP

@@ -2,8 +2,7 @@
 Author: Vighnesh Nayak
 Date: 25/10/2023
 Course: Microprocessors and Automatic Controls
-tags:
- - controls
+tags: [controls]
 ---
 # Second Order Systems.
 ---
@@ -25,7 +24,7 @@ $$\implies k=\lim_{s\to0}G(s)$$
 
 ---
 ### Standard Feedback System.
-![stdFeedbackSys](./attachments/stdFeedbackSys.png)
+![stdFeedbackSys](/static/stdFeedbackSys.png)
 
 Remember that $\frac{Y(s)}{U(s)}=\frac{G(s)}{1+G(s)H(s)}$.
 

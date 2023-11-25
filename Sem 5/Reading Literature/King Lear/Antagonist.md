@@ -3,8 +3,7 @@ Author: Vighnesh Nayak
 Date: 29/10/2023
 Modified: 29/10/2023
 Course: Reading Literature
-tags:
-  - literature
+tags: [ literature ]
 ---
 # Antagonist
 ---

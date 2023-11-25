@@ -2,8 +2,7 @@
 Author: Vighnesh Nayak
 Date: 26/10/2023
 Course: Microprocessors and Automatic Controls
-tags:
- - controls
+tags: [controls]
 ---
 # Laplace Transforms
 ---

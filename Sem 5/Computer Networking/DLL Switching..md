@@ -2,8 +2,7 @@
 Author: Vighnesh Nayak
 Date: 01/11/2023
 Course: Computer Networking
-tags:
-  - "#networking"
+tags: ["#networking"]
 ---
 # [DLL](DLL.md) Switching.
 ---
@@ -13,10 +12,10 @@ tags:
 	- They make use of **[forwarding tables](#Forwarding%20tables.)** for this task.
 	- Forwarding tables are created dynamically during operation.
 - If there is a loop in the network connected by multiple switches, since initially forwarding tables are empty, all the switches in the network forward the frames to all the ports. This creates an infinite loop.
-	- ![Pasted image 20231101022155](./attachments/Pasted%20image%2020231101022155.png)
+	- ![Pasted image 20231101022155](/static/Pasted%20image%2020231101022155.png)
 	- To mitigate this issue and break the loop **[Spanning Tree Protocol](#Spanning%20Tree%20Protocol)** is used.
 	- This converts the Graph created by LAN's to a spanning tree by disabling some of the ports while keeping all the LAN's connected.
-	- ![Pasted image 20231101023743](./attachments/Pasted%20image%2020231101023743.png)
+	- ![Pasted image 20231101023743](/static/Pasted%20image%2020231101023743.png)
 
 ---
 ## Forwarding tables.

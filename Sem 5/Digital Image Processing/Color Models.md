@@ -2,9 +2,7 @@
 Author: Vighnesh Nayak
 Date: 06/11/2023
 Course: Digital Image Processing
-tags:
-  - dip
-  - cv
+tags: [dip, cv]
 ---
 # Color Models
 ---

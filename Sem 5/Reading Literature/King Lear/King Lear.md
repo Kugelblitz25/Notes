@@ -3,15 +3,14 @@ Author: Vighnesh Nayak
 Date: 28/10/2023
 Modified: 30/10/2023
 Course: Reading Literature
-tags:
-  - literature
-  - book
+tags: [ literature, book ]
 Writer: William Shakespeare
 ---
 # King Lear
 ---
 
-![cover](../attachments/cover.jpg)
+![cover](/static/cover.jpg)
+
 - [**Book**](https://www.folger.edu/explore/shakespeares-works/king-lear/read/)
 - [**Audio Book**](https://www.gutenberg.org/files/26224/26224-index.html)
 - **Full title** : The Tragedy of King Lear
