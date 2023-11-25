@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background-color: #2b2b2b;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 0.1em;
+    text-align: center;
+    height: 4em;
+    width: 100vw;
+    position: fixed;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    margin: auto;
+    background-color: #333333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+sidebar {
+    width: 0%;
+    background-color: #1f1f1f;
+    padding: 0;
+    transition: width 0.3s ease;
+    position: fixed;
+    top: 4em;
+    height: calc(100vh - 4em);
+    overflow-y: auto;
+}
+
+content {
+    flex: 1;
+    padding: 2em;
+    padding-top: 4em
+}
+
+h1, h2, h3 {
+    color: #bb86fc;
+}
+
+h4,h5{
+    color: #86d9fc;
+}
+
+code {
+    color: #ff79c6;
+    background-color: #1e1e1e;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+a {
+    color: #64ffda;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 10px;
+    text-align: center;
+    height: 2em;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#collapse-btn {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    cursor: pointer;
+    color: #ffffff;
+    margin-left: 1em;
+    align-items: left;
+}
+
+#linkedin{
+    width: 40px;
+}
+#github{
+    width: 24px;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-areas: "ct-head ct-head ct-head"
+                            "m1 m2 m3";
+    height: 4em;
+    grid-template-rows: 2em 2em;
+    align-items: center;
+    position: absolute;
+    padding: 1em;
+    bottom: 0;
+}
+.ct-head{
+    grid-area: ct-head;
+}
+.ct-mode-1{
+    grid-area: m1;
+}
+.ct-mode-2{
+    grid-area: m2;
+}
+.ct-mode-3{
+    grid-area: m3;
+}

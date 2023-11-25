@@ -9,7 +9,7 @@ tags: [ literature ]
 ---
 **Themes are the fundamental and often universal ideas explored in a literary work.**
 
-![family-theme](/static/family-theme.png)
+![family-theme](/static/images/family-theme.png)
 ## Justice
 _King Lear_ is a brutal play, filled with human cruelty and awful, seemingly meaningless disasters. The play’s succession of terrible events raises an obvious question for the characters—namely, whether there is any possibility of justice in the world, or whether the world is fundamentally indifferent or even hostile to humankind. Various characters offer their opinions: “As flies to wanton boys are we to the gods; / They kill us for their sport,” Gloucester muses, realizing it foolish for humankind to assume that the natural world works in parallel with socially or morally convenient notions of justice (4.1.37–38). Edgar, on the other hand, insists that “the gods are just,” believing that individuals get what they deserve (5.3.169). But, in the end, we are left with only a terrifying uncertainty—although the wicked die, the good die along with them, culminating in the awful image of Lear cradling Cordelia’s body in his arms. There is goodness in the world of the play, but there is also madness and death, and it is difficult to tell which triumphs in the end.
 

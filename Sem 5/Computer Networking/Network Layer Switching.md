@@ -30,7 +30,7 @@ tags: [networking]
 - Based on *distributed [Bellman-Ford Algorithm](../../DSA/Graphs/Bellman-Ford%20Algorithm.md)*.
 - Uses *RIP (Routing Information Protocol)*.
 - Each router need to know only the next router in shortest path. 
-- ![Pasted image 20231101120453](/static/Pasted%20image%2020231101120453.png)
+- ![Pasted image 20231101120453](/static/images/Pasted%20image%2020231101120453.png)
 - Each router send its ID and Distance to itself to all neighbours.
 - A sends out: (A,0) and hears: (B,0),(F,0),(C,0).
 - Routing table of A at this point is given by.
@@ -71,8 +71,8 @@ tags: [networking]
 #### Count-To-Infinity Problem (CTI)
 - Since no node has the complete knowledge of the network it will create issues.
 - This problem occurs when there is a network topology change, and the routing information takes time to converge to a stable state. It can lead to routing loops and incorrect routing decisions.
-- Ex: ![Pasted image 20231102182840](/static//Pasted%20image%2020231102182840.png)
-- ![Pasted image 20231102182947](/static/Pasted%20image%2020231102182947.png)
+- Ex: ![Pasted image 20231102182840](/static/images/Pasted%20image%2020231102182840.png)
+- ![Pasted image 20231102182947](/static/images/Pasted%20image%2020231102182947.png)
 - In this way depending upon the timing of updates each node thinks that downed node can be reached by the other and keep incrementing the distance values till infinity.
 - This will also create a loop since any packet to the downed node keeps oscillating between A and B.
 - *RIP* has maximum distance value of $d_{max}$ , which if reached is considered as infinity and packet is lost. 

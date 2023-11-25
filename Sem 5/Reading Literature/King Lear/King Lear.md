@@ -9,7 +9,7 @@ Writer: William Shakespeare
 # King Lear
 ---
 
-![cover](/static/cover.jpg)
+![cover](/static/images/cover.jpg)
 
 - [**Book**](https://www.folger.edu/explore/shakespeares-works/king-lear/read/)
 - [**Audio Book**](https://www.gutenberg.org/files/26224/26224-index.html)

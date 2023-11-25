@@ -24,7 +24,7 @@ $$\implies k=\lim_{s\to0}G(s)$$
 
 ---
 ### Standard Feedback System.
-![stdFeedbackSys](/static/stdFeedbackSys.png)
+![stdFeedbackSys](/static/images/stdFeedbackSys.png)
 
 Remember that $\frac{Y(s)}{U(s)}=\frac{G(s)}{1+G(s)H(s)}$.
 
