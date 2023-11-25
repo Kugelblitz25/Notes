@@ -37,7 +37,7 @@ def note(dir):
         return render_template('List.html',paths=paths)
     with open(dir,'r') as f:
         text=f.read()
-    return mdtex2html.convert(text,extensions=['meta'])
+    return mdtex2html.convert(text,extensions=['meta','tables'])
 
 if __name__=="__main__":
     app.run(debug=True)

@@ -33,14 +33,14 @@ tags: [networking]
 - ![Pasted image 20231101120453](/static/Pasted%20image%2020231101120453.png)
 - Each router send its ID and Distance to itself to all neighbours.
 - A sends out: (A,0) and hears: (B,0),(F,0),(C,0).
-- Routing table of A at this point is given by
-
+- Routing table of A at this point is given by.
+	 
 	| Dest | Next hop | Cost |
 	| ---- | -------- | ---- |
 	| A    | -        | 0    |
 	| B    | B        | 1    |
 	| C    | C        | 1    |
-	| F     |    F      |  1    |
+	| F    | F        | 1    |
 
 - Then each router send its routing table to all neighbours.
 - A hears: 
@@ -48,7 +48,7 @@ tags: [networking]
 	- from C: (A,1), (D,1)
 	- from F: (A,1),(G,1)
 - Now all the routers update their routing tables with updated shortest paths.
-	
+	 
 	| Dest | Next hop | Cost |
 	| ---- | -------- | ---- |
 	| A    | -        | 0    |
@@ -56,7 +56,8 @@ tags: [networking]
 	| C    | C        | 1    |
 	| F    | F        | 1    |
 	| D    | C        | 2    |
-	| G     |  F        |  2    |
+	| G    |  F       | 2    |
+
 - This process continues till all routers have complete routing tables.
 - **Triggered Updates**: Routing updates to neighbours that are triggered by any events.
 	- ex: Failure of a link triggers update with distance as infinity.
@@ -65,7 +66,6 @@ tags: [networking]
 - **Disadvantages**: 
 	- [#Count-To-Infinity Problem (CTI)](#Count-To-Infinity%20Problem%20(CTI)) and route loops.
 	- Takes time for convergence of routing tables.
-
 ---
 
 #### Count-To-Infinity Problem (CTI)
@@ -77,18 +77,18 @@ tags: [networking]
 - This will also create a loop since any packet to the downed node keeps oscillating between A and B.
 - *RIP* has maximum distance value of $d_{max}$ , which if reached is considered as infinity and packet is lost. 
 - For simple networks we can use [#Split-Horizon.](#Split-Horizon.) or [#Split-Horizon with Poison Reverse](#Split-Horizon%20with%20Poison%20Reverse) , they may not work for larger networks with packet loss.
-
 ---
-#### Split-Horizon.
 
+#### Split-Horizon.
 - Do not advertise information about a destination to a neighbour if that neighbour is the next hop to destination.
 
 ---
-#### Split-Horizon with Poison Reverse
 
+#### Split-Horizon with Poison Reverse
 - A node tells its next hop to a destination that its distance to destination is $\infty$.
 
 ---
+
 ### Link-State routing.
 - Each node send to all others (*broadcast*) information about cost to immediate neighbours.
 - Each node has complete information about the network.
@@ -98,6 +98,6 @@ tags: [networking]
 	- No routing loops or *CTI* problems.
 	- Convergence to routing tables is fast.
 - **Disadvantages**: Algorithm is much more complex than *[#Distance Vector routing.](#Distance%20Vector%20routing.)*
-
 ---
+
 ## Inter-domain routing.
