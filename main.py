@@ -26,4 +26,4 @@ def note(dir):
     return mdtex2html.convert(text,extensions=['meta'])
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run()
