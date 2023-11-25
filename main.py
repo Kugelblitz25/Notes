@@ -21,8 +21,6 @@ def note(dir):
         if 'attachments' in paths: paths.remove('attachments')
         paths={path: '/'+os.path.join(dir,path) for path in paths}
         return render_template('List.html',paths=paths)
-    file=dir.split('/')[-1]
-    ext=file.split('.')[-1]
     with open(dir,'r') as f:
         text=f.read()
     return mdtex2html.convert(text,extensions=['meta'])
